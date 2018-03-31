@@ -1,0 +1,21 @@
+h1 {
+  top: 0px;
+  margin: 0px;
+  color: #ff9900;
+  font-size: 96px;
+  text-align: center;
+  font-family: 'Florence', cursive;
+  border-width: thin medium thick 1000px;
+
+}
+h2{
+  color: white;
+    font-size: 76px;
+  text-align: center;
+  font-family: 'Florence', cursive;
+}
+
+
+html {
+    background-color: #4bb5d9 ;
+}

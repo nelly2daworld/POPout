@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<title>POPOut Website</title>
+<meta charset="UTF-8">
+<link href="index.css" rel="stylesheet" type="text/css" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<body>
+<!-- Links (sit on top) -->
+<div class="w3-top">
+<div class="w3-row w3-black">
+<div class="w3-col s3">
+  <a href="#" class="w3-button w3-block w3-orange w3-text-white">HOME</a>
+</div>
+<div class="w3-col s3">
+  <a href="#about" class="w3-button w3-block w3-orange w3-text-white">ABOUT</a>
+</div>
+<div class="w3-col s3">
+  <a href="#menu" class="w3-button w3-block w3-orange w3-text-white">REGISTRATION</a>
+</div>
+<div class="w3-col s3">
+  <a href="#where" class="w3-button w3-block w3-orange w3-text-white">LOCATION</a>
+</div>
+</div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<!-- Header with image -->
+<header class=" w3-display-container w3-#4bb5d9 -min" id="home">
+<div class="w3-display-middle w3-center">
+<h1> <img src= "yass.PNG"> </h1>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</div>
+<div class="w3-display-bottomright w3-center w3-padding-large">
+</div>
+</header>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-white  w3-large">
+
+<!-- About Container -->
+<div class="w3-container"  id="about">
+<div class="w3-content" style="max-width:700px">
+ <h3 class="w3-center w3-padding-64"><span class="w3-orange w3-tag w3-wide w3-text-white">ABOUT POPout</span>
+<p><strong>POPout</strong> was founded in Washington, D.C. by SWAG Team</p>
+<p><strong>POPout</strong> facilitates events that redirect consumers into underserved communities </p>
+<p>We organize a pop up event in an underserved area. Acquire performances/speakers. Vendors pay for advertising and booth. Participants enjoy and shop!</p>
+</div>
+
+</div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<!-- Contact/Area Container -->
+<div class="w3-container" id="where" style="padding-bottom:32px;">
+<div class="w3-content " style="max-width:700px">
+<h3 class="w3-center "><span class="w3-tag w3-wide w3-orange w3-text-white">POPout EVENTS NEAR YOU</span></h3>
+<p>Find us at the address based on the availability.</p>
+
+<!-- Google Map (SouthEast Regiion)-->
+<script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyCR35TlGB55mHcHRFckR01uI7i4QuKRyKc'></script><div style='overflow:hidden;height:518px;width:713px;'><div id='gmap_canvas' style='height:518px;width:713px;'></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div> <a href='https://add-map.com/'>embed google maps wordpress</a> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=cd8699b7970eb2529c72b656af98ab410ee74963'></script><script type='text/javascript'>function init_map(){var myOptions = {zoom:17,center:new google.maps.LatLng(38.8765817,-77.0026679),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(38.8765817,-77.0026679)});infowindow = new google.maps.InfoWindow({content:'<strong>POPout : Jazz Concert</strong><br>234 M St. SE<br>20024 Washington<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+
+<!-- Menu Box -->
+<div class="w3-container" id="menu">
+<div class="w3-content" style="max-width:700px">
+<h3 class="w3-center w3-padding-48"><span class="w3-tag w3-wide w3-text-white w3-orange">REGISTER HERE</span></h3>
+<!--Registration Information -->
+<p><span class="w3-tag w3-orange w3-text-white">FYI!</span> We partner with DC Government to help individuals living the lower income DMV areas.</p>
+<p><strong>Register</strong> for POPout: Jazz Concert!</p>
+<form action="/action_page.php" target="_blank">
+  <p><input class="w3-input w3-padding-16 w3-border w3-text-black " type="text" placeholder="Name" required name="Name"></p>
+  <p><input class="w3-input w3-padding-16 w3-border w3-text-black  " type="number" placeholder="How many people" required name="People"></p>
+  <p><input class="w3-input w3-padding-16 w3-border w3-text-black " type="datetime-local" placeholder="Date and time" required name="date" value="2017-11-16T20:00"></p>
+  <p><input class="w3-input w3-padding-16 w3-border w3-text-black " type="text" placeholder="Message" required name="Message"></p>
+  <!-- Confirm address-->
+  <div class="navbar">
+  <a class=" w3-block w3-orange w3-text-white" type="submit"href= "Confirmation.html">SEE YOU THERE!</a>
+  </div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>

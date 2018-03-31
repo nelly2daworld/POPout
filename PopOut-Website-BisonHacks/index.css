@@ -1,0 +1,40 @@
+h1 {
+  top: 0px;
+  margin: 0px;
+font-size: 96px;
+  text-align: center;
+  font-family: 'Florence', cursive;
+  color: black;
+}
+p{
+  background-color: white;
+}
+body, html {
+    height: 100%;
+    font-family: "Roboto", sans-serif;
+}
+span {
+  color: #ff9900 ;
+}
+body{
+  background-color: #4bb5d9 ;
+  background-position: center;
+  text-align:center;
+  margin:0cm;
+
+}
+.bgimg {
+    background-position: center;
+    background-size: cover;
+    background-image: url("/w3images/coffeehouse.jpg");
+    min-height: 75%;
+}
+.menu {
+    display: none;
+}
+
+
+<!--Color Scheme
+Dark aqua #3796bf / Aqua #4bb5d9 / Light aqua #81d1ec
+Yolk yellow #ff9900
+-->
